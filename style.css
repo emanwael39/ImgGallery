@@ -1,10 +1,14 @@
+body{
+    margin-top: 100px;
+}
 .slider{
     margin: auto;
     text-align: center;
-    width: 400px;
+    width:400px;
+    position: relative;
 }
 .slider img{
-    width: 400px;
+    width:400px;
     position: relative;
     display: block;
     margin: auto;
@@ -14,12 +18,22 @@
     margin: auto;
  
     z-index: 4;
-    width: 400px;
+    width:400px;
     display: flex;
     justify-content: space-between;
-    top: 30%;
+    top: 50%;
+    
    
-   
+}
+@media (max-width:767px) {
+    .slider,
+    .slider .btns,
+    .slider img{
+        width:200px;
+    }
+    .slider .btns{
+        top: 45%;
+    }
 }
 .slider .btns button{
     background-color: blanchedalmond;
