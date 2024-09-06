@@ -1,6 +1,7 @@
 .slider{
-    /* margin: auto; */
-    text-align: center
+    margin: auto;
+    text-align: center;
+    width: 400px;
 }
 .slider img{
     width: 400px;
@@ -17,7 +18,7 @@
     display: flex;
     justify-content: space-between;
     top: 30%;
-    left: 35.3%;
+   
    
 }
 .slider .btns button{
